@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="score">
+            <h3>SCORE</h3>
+            <div class="points">
+                <div class="score-player score-pl1">
+                    <p>Jogador 1</p>
+                    <span>0</span>
+                </div>
+                <div class="score-player score-pl2">
+                    <p>Jogador 2</p>
+                    <span>0</span>
+                </div>
+            </div>        
+        </div>
+
+        <div class="message draw"></div>
+
+        <div class="container">
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+        </div>
+        <button type="button" id="restart">Reiniciar</button>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
